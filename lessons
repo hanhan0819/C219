@@ -1,0 +1,245 @@
+<html>
+<head> 
+   
+   <style>
+
+  video {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
+   body {
+      padding: 1%;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+   }
+   * {
+      box-sizing: border-box;
+   }
+   .left, .right, .center {
+      float: left;
+      width: 33%;
+      color: white;
+      padding: 10px;
+      height: 500px;
+      text-align: center;
+   }
+   .left {
+      background-color: rgb(88, 89, 179);
+   }
+   .right {
+      background-color: rgb(36, 87, 182);
+   }
+   .center {
+      background-color: rgb(42, 139, 163);
+   }
+   .container:after {
+      clear: both;
+   }
+  
+</style>
+<title>work</title>   
+<link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+<style>
+
+div {background-color: rgb(21, 181, 209)
+
+}
+.logo{
+        width: 100px;
+       
+        top: 0px;
+        left: 5px;
+        animation-name: example;
+  animation-duration: 4s;
+    }
+
+   div a {
+      
+     text-decoration: none;
+     color: white;
+     font-size: 20px;
+     padding: 15px;
+     display:inline-block;
+      
+         
+     
+   }
+   ul {
+     display: inline;
+     margin: 0;
+     padding: 0;
+   }
+   ul li {display: inline-block;}
+   ul li:hover {background: #555;}
+   ul li:hover ul {display: block;}
+   ul li ul {
+     position: absolute;
+     width: 200px;
+     display: none;
+   }
+   ul li ul li { 
+     background: #555; 
+     display: block; 
+   }
+   ul li ul li a {display:block !important;} 
+   ul li ul li:hover {background: #666;}
+    
+    @keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+    
+    .container{
+      
+      position: absolute;
+  left: 50px;
+  top: 400px;
+  z-index: -1;
+    }
+    @media only screen and (max-width: 768px) {
+            div{
+                font-size: 7vw;
+                margin-top: 4vw;
+                margin-bottom: 3vw;
+
+                  
+                width:100%;
+                text-align: center;
+            }
+            
+            div a{
+            color: white;
+            padding: 4vw;
+            display: inline-block;}
+
+            img{
+               width: 100%;
+               margin: 0 0 2vw;
+                  }
+                  video{
+                     
+      display: none;
+      
+      
+    }
+
+        
+        
+        .left{
+         width:100%;
+        }
+        .center{
+         width:100%;
+        }
+        .right{
+         width:100%;
+        }
+        p{
+         font-size: 3vw;
+                margin-top: 4vw;
+                margin-bottom: 3vw;
+            color: #000000;
+        }
+        h1{
+         font-size: 7vw;
+                margin-top: 4vw;
+                margin-bottom: 3vw;
+        }
+        .container{
+         
+         margin: 0 0 2vw;
+        }
+         
+    </style>
+    
+    
+    
+
+<header>
+   <div class="logo">
+      <svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+       viewBox="0 0 184.9 195.4" style="enable-background:new 0 0 184.9 195.4;" xml:space="preserve">
+   <style type="text/css">
+      .st0{fill:none;stroke:#000000;stroke-width:0.905;stroke-miterlimit:10;}
+      .st1{fill:none;stroke:#FFFCFB;stroke-width:0.9298;stroke-miterlimit:10;}
+      .st2{fill:#7BCBDE;stroke:#FFFCFB;stroke-width:1.054;stroke-miterlimit:10;}
+      .st3{enable-background:new    ;}
+      .st4{fill:#FFFFFF;}
+      .st5{fill:#174098;}
+      .st6{font-family:'MS-UIGothic';}
+      .st7{font-size:81.9744px;}
+      .st8{fill:none;stroke:#FFFCFB;stroke-miterlimit:10;}
+   </style>
+   <path class="st0" d="M142.2,90.8"/>
+   <g>
+      <g>
+         <path class="st1" d="M143.1,217.8"/>
+      </g>
+      <g>
+         <rect x="32.4" class="st2" width="113.8" height="193.3"/>
+         <g class="st3">
+            <path class="st4" d="M43.1,85.2h11l13.5,78.9l16.6-78.9h11l16.6,78.9l13.5-78.9h11l-19.1,107.5h-10l-17.6-86.4l-17.6,86.4h-10
+               L43.1,85.2z"/>
+         </g>
+         <text transform="matrix(0.767 0 0 1 70.8207 194.2732)" class="st5 st6 st7">X</text>
+      </g>
+   </g>
+   <g>
+      <g>
+         <path class="st8" d="M-131.6,215.6"/>
+      </g>
+   </g>
+   </svg></div>
+   <div>
+      <a href="#">Home</a>
+      <a href="#">About us</a>
+      
+      <a href="#">Advertise</a>
+      
+      <ul>
+        <li>
+          <a href="#">Package Tour</a>
+          <ul>
+            <li><a href="China.html">China</a></li>
+            <li><a href="japan.html">Japan</a></li>
+            <li><a href="#">Korea</a></li>
+          </ul>
+        </li>
+      </ul>
+      <a href="#">Contact Us</a>
+    </div>
+
+
+</header>
+
+<video autoplay muted loop class="video">
+   <source src="picc.mp4"type="video/mp4">
+</video>
+
+
+
+<div class="container">
+<div class="left">
+<h1>China</h1>
+<img src="china.jpg" alt="Trulli"width="500" height="333" >
+<p>China, officially the People's Republic of China (PRC), is a country in East Asia. It is the world's most populous country with a population exceeding 1.4 billion people.
+</div>
+<div class="center">
+   
+<h1>South Korea</h1>
+<img src="korea.jpg" alt="Trulli"width="500" height="333" >
+<p>South Korea, officially the Republic of Korea (ROK),is a country in East Asia, constituting the southern part of the Korean Peninsula and sharing a land border with North Korea.</p>
+</div>
+<div class="right">
+<h1>Japan</h1>
+<img src="japan.jpg" alt="Trulli"width="500" height="333" >
+<p>Japan (Japanese: 日本, Nippon or Nihon,[nb 1] and formally 日本国, Nihonkoku[nb 2]) is an island country in East Asia. </p>
+</div>
+
+</body>
+</html>
